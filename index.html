@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Material de clase</title>
 
+    <!-- Estilos básicos para que se vea más agradable -->
+    <style>
+        /* Fuente y colores del fondo */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f8fb; /* fondo suave */
+            color: #333;
+            margin: 0;
+            padding: 40px;
+        }
+
+        /* Título principal */
+        h1 {
+            color: #2a72b5; /* azul suave */
+            text-align: center;
+        }
+
+        /* Lista de enlaces centrada y sin viñetas */
+        ul {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 0;
+            list-style: none;
+        }
+
+        /* Cada elemento de la lista tiene fondo y bordes suaves */
+        li {
+            background-color: #ffffff;
+            margin-bottom: 12px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            transition: background-color 0.2s;
+        }
+
+        /* Efecto al pasar el mouse */
+        li:hover {
+            background-color: #eef5fc;
+        }
+
+        /* Enlace con estilo de bloque completo */
+        a {
+            display: block;
+            padding: 16px 24px;
+            text-decoration: none;
+            color: #2a72b5;
+            font-weight: bold;
+        }
+
+        /* Ícono al principio del enlace */
+        a::before {
+            content: "📎 "; /* clip de papel */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Material de clase para descargar</h1>
+
+    <!-- Lista de archivos disponibles -->
+    <ul>
+        <li><a href="Cómo “piensan” las computadoras.pdf" download>Cómo “piensan” las computadoras</a></li>
+        <li><a href="La computadora - Actividades.pdf" download>La computadora - Actividades</a></li>
+        <li><a href="Qué es un Sistema Informático.pdf" download>Qué es un Sistema Informático</a></li>
+        <li><a href="Sistema operativo (plan de cocina).pdf" download>Sistema operativo (plan de cocina)</a></li>
+        <li><a href="Sistemas operativos - Actividades.pdf" download>Sistemas operativos - Actividades</a></li>
+    </ul>
+</body>
+</html>
