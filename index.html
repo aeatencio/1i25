@@ -1,74 +1,80 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Material de clase</title>
+  <meta charset="UTF-8">
 
-    <!-- Estilos básicos para que se vea más agradable -->
-    <style>
-        /* Fuente y colores del fondo */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f8fb; /* fondo suave */
-            color: #333;
-            margin: 0;
-            padding: 40px;
-        }
+  <!-- Esto hace que el sitio se vea bien en celulares -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        /* Título principal */
-        h1 {
-            color: #2a72b5; /* azul suave */
-            text-align: center;
-        }
+  <title>Material de clase</title>
 
-        /* Lista de enlaces centrada y sin viñetas */
-        ul {
-            max-width: 600px;
-            margin: 40px auto;
-            padding: 0;
-            list-style: none;
-        }
+  <!-- Estilos -->
+  <style>
+    /* Configuración general del cuerpo */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f8fb;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
 
-        /* Cada elemento de la lista tiene fondo y bordes suaves */
-        li {
-            background-color: #ffffff;
-            margin-bottom: 12px;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            transition: background-color 0.2s;
-        }
+    /* Título */
+    h1 {
+      text-align: center;
+      color: #2a72b5;
+      font-size: 1.6em;
+      margin-bottom: 30px;
+    }
 
-        /* Efecto al pasar el mouse */
-        li:hover {
-            background-color: #eef5fc;
-        }
+    /* Lista centrada */
+    ul {
+      max-width: 600px;
+      margin: auto;
+      padding: 0;
+      list-style: none;
+    }
 
-        /* Enlace con estilo de bloque completo */
-        a {
-            display: block;
-            padding: 16px 24px;
-            text-decoration: none;
-            color: #2a72b5;
-            font-weight: bold;
-        }
+    /* Cada botón/enlace */
+    li {
+      background: white;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
 
-        /* Ícono al principio del enlace */
-        a::before {
-            content: "📎 "; /* clip de papel */
-        }
-    </style>
+    a {
+      display: block;
+      text-decoration: none;
+      padding: 16px;
+      color: #2a72b5;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    a:hover {
+      background-color: #eef5fc;
+    }
+
+    a::before {
+      content: "📎 ";
+    }
+  </style>
 </head>
 
 <body>
-    <h1>Material de clase para descargar</h1>
 
-    <!-- Lista de archivos disponibles -->
-    <ul>
-        <li><a href="Cómo “piensan” las computadoras.pdf" download>Cómo “piensan” las computadoras</a></li>
-        <li><a href="La computadora - Actividades.pdf" download>La computadora - Actividades</a></li>
-        <li><a href="Qué es un Sistema Informático.pdf" download>Qué es un Sistema Informático</a></li>
-        <li><a href="Sistema operativo (plan de cocina).pdf" download>Sistema operativo (plan de cocina)</a></li>
-        <li><a href="Sistemas operativos - Actividades.pdf" download>Sistemas operativos - Actividades</a></li>
-    </ul>
+  <h1>Material de clase para descargar</h1>
+
+  <ul>
+    <li><a href="Cómo “piensan” las computadoras.pdf" download>Cómo “piensan” las computadoras</a></li>
+    <li><a href="La computadora - Actividades.pdf" download>La computadora - Actividades</a></li>
+    <li><a href="Qué es un Sistema Informático.pdf" download>Qué es un Sistema Informático</a></li>
+    <li><a href="Sistema operativo (plan de cocina).pdf" download>Sistema operativo (plan de cocina)</a></li>
+    <li><a href="Sistemas operativos - Actividades.pdf" download>Sistemas operativos - Actividades</a></li>
+  </ul>
+
 </body>
 </html>
