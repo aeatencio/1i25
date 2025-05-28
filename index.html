@@ -1,85 +1,122 @@
 <!DOCTYPE html>
+<!-- Declaración del tipo de documento: HTML5 -->
 <html lang="es">
+<!-- Indica que el contenido está en español -->
+
 <head>
   <meta charset="UTF-8">
+  <!-- Configura la codificación de caracteres para permitir tildes, ñ, etc. -->
 
-  <!-- Esto hace que el sitio se vea bien en celulares -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Hace que el sitio se vea bien en celulares, adaptando su escala -->
 
   <title>Material de clase</title>
+  <!-- Título que aparece en la pestaña del navegador -->
 
-  <!-- Estilos -->
   <style>
-    /* Configuración general del cuerpo */
+    /* ==== ESTILOS GENERALES DEL SITIO ==== */
+
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f8fb;
-      color: #333;
+      font-family: Arial, sans-serif; /* Fuente limpia y legible */
+      background-color: #f4f8fb; /* Color de fondo suave */
+      color: #333; /* Color del texto principal */
       margin: 0;
-      padding: 20px;
+      padding: 20px; /* Espaciado alrededor del contenido */
     }
 
-    /* Título */
+    h1, h2 {
+      text-align: center; /* Títulos centrados */
+      color: #2a72b5; /* Azul institucional */
+    }
+
     h1 {
-      text-align: center;
-      color: #2a72b5;
-      font-size: 1.6em;
-      margin-bottom: 30px;
+      font-size: 1.8em; /* Título principal más grande */
+      margin-bottom: 10px;
     }
 
-    /* Lista centrada */
-    ul {
-      max-width: 600px;
-      margin: auto;
-      padding: 0;
-      list-style: none;
-    }
-
-    /* Cada botón/enlace */
-    li {
-      background: white;
+    h2 {
+      font-size: 1.3em; /* Subtítulos de secciones */
+      margin-top: 40px;
       margin-bottom: 15px;
-      border: 1px solid #ccc;
-      border-radius: 8px;
+    }
+
+    ul {
+      max-width: 600px; /* Ancho máximo de las listas */
+      margin: auto;     /* Centra las listas horizontalmente */
+      padding: 0;
+      list-style: none; /* Quita los puntos de las listas */
+    }
+
+    li {
+      background: white; /* Fondo blanco para cada ítem */
+      margin-bottom: 15px;
+      border: 1px solid #ccc; /* Borde gris claro */
+      border-radius: 8px;     /* Esquinas redondeadas */
       overflow: hidden;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra sutil */
     }
 
     a {
-      display: block;
-      text-decoration: none;
+      display: block; /* El enlace ocupa todo el cuadro */
+      text-decoration: none; /* Quita el subrayado */
       padding: 16px;
-      color: #2a72b5;
+      color: #2a72b5; /* Color azul del texto */
       font-weight: bold;
       font-size: 1.1em;
     }
 
     a:hover {
-      background-color: #eef5fc;
+      background-color: #eef5fc; /* Fondo más claro al pasar el mouse */
     }
 
     a::before {
-      content: "📎 ";
+      content: "📎 "; /* Icono de clip antes del nombre del archivo */
     }
   </style>
 </head>
 
 <body>
 
+  <!-- ====== TÍTULO PRINCIPAL DEL SITIO ====== -->
   <h1>Material de clase para descargar</h1>
 
-  <ul>
-    <li><a href="Cómo “piensan” las computadoras.pdf" download>Cómo “piensan” las computadoras</a></li>
-    <li><a href="La computadora - Actividades.pdf" download>La computadora - Actividades</a></li>
-    <li><a href="Qué es un Sistema Informático.pdf" download>Qué es un Sistema Informático</a></li>
-    <li><a href="Sistema operativo (plan de cocina).pdf" download>Sistema operativo (plan de cocina)</a></li>
-    <li><a href="Sistemas operativos - Actividades.pdf" download>Sistemas operativos - Actividades</a></li>
-    <li><a href="Primeros pasos en la consola de Linux.pdf" download>Primeros pasos en la consola de Linux</a></li>
-    <li><a href="Estructura básica de las computadoras - Teoría.pdf" download>Estructura básica de las computadoras - Teoría</a></li>
-    <li><a href="Estructura básica de las computadoras - Preguntas.pdf" download>Estructura básica de las computadoras - Preguntas</a></li>
-    <li><a href="Identidad digital - Cuento - El huevo, de Andy Weir.pdf" download>Identidad digital - Cuento - El huevo, de Andy Weir</a></li>
-    <li><a href="Identidad digital - Teoría y Tarea.pdf" download>Identidad digital - Teoría y Tarea</a></li>
-  </ul>
+  <!-- ====== SECCIÓN 1: MATERIAL TRABAJADO EN CLASE ====== -->
+  <section>
+    <h2>✅ Ya trabajamos en clase</h2>
+    <ul>
+      <!-- Archivos centrales que ya fueron abordados en clase -->
+      <li><a href="Qué es un Sistema Informático.pdf" download>Qué es un Sistema Informático</a></li>
+      <li><a href="Sistema operativo (plan de cocina).pdf" download>Sistema operativo (plan de cocina)</a></li>
+      <li><a href="Estructura básica de las computadoras - Teoría.pdf" download>Estructura básica de las computadoras – Teoría</a></li>
+      <li><a href="Estructura básica de las computadoras - Preguntas.pdf" download>Estructura básica de las computadoras – Preguntas</a></li>
+      <li><a href="Identidad digital - Teoría y Tarea.pdf" download>Identidad digital – Teoría y Tarea</a></li>
+      <!-- Material de evaluación -->
+      <li><a href="Sistema Informático - Evaluación.pdf" download>Evaluación – Sistema Informático</a></li>
+      <li><a href="Sistema Informático - Evaluación - Respuestas tentativas.pdf" download>Evaluación – Respuestas tentativas</a></li>
+    </ul>
+  </section>
+
+  <!-- ====== SECCIÓN 2: ACTIVIDADES OPTATIVAS Y DE PROFUNDIZACIÓN ====== -->
+  <section>
+    <h2>🧩 Actividades optativas o de profundización</h2>
+    <ul>
+      <!-- Materiales complementarios que sirven para practicar o explorar -->
+      <li><a href="La computadora - Actividades.pdf" download>La computadora – Actividades</a></li>
+      <li><a href="Sistemas operativos - Actividades.pdf" download>Sistemas operativos – Actividades</a></li>
+      <li><a href="Primeros pasos en la consola de Linux.pdf" download>Primeros pasos en la consola de Linux</a></li>
+      <li><a href="Cómo “piensan” las computadoras.pdf" download>Cómo “piensan” las computadoras</a></li>
+    </ul>
+  </section>
+
+  <!-- ====== SECCIÓN 3: MATERIALES DE CONSULTA Y LECTURAS COMPLEMENTARIAS ====== -->
+  <section>
+    <h2>📚 Otros materiales de consulta</h2>
+    <ul>
+      <!-- Cuentos utilizados como disparadores o materiales de reflexión -->
+      <li><a href="Identidad digital - Cuento - El huevo, de Andy Weir.pdf" download>Identidad digital – Cuento: *El huevo*, de Andy Weir</a></li>
+      <li><a href="Cuento - Cómo se divertían - Isaac Asimov.pdf" download>Cuento: *Cómo se divertían*, de Isaac Asimov</a></li>
+    </ul>
+  </section>
 
 </body>
 </html>
